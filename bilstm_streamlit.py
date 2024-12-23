@@ -158,7 +158,7 @@ def predict_crf(sentence):
 # Streamlit UI
 # ----------------------------
 
-st.title("NER Testing UI with BiLSTM, LSTM, and CRF Models")
+st.title("NER Testing Interface")
 st.write("Test Named Entity Recognition (NER) with BiLSTM, LSTM, and CRF Models.")
 
 # Model Selection
@@ -186,4 +186,4 @@ if st.button("Run NER Model"):
 
 # Footer
 st.write("---")
-st.write("Developed with ❤️ using Streamlit, PyTorch, and sklearn-crfsuite.")
+st.write("Developed by Pun Solita, Vicheanon Norakpichit, Sim Thydatepin, and Som Deborah")
